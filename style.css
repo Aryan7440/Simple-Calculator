@@ -1,0 +1,45 @@
+html {
+    font-family: 'Diplomata', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+}
+.section{
+    background-color: rgb(180, 201, 159);
+    height: 70vh;;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+
+}
+.screen{
+    background-color: rgb(82, 86, 86);
+    height: 7rem;
+    width: 29.5rem;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+}
+.buttons{
+    background-color: blue;
+    height: 30rem;
+    width: 30rem ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.btn{
+    background-color: rgb(186, 186, 186);
+    font-size: 1.5rem;
+}
+.num{
+    background-color: rgb(108, 150, 124);
+}
+.equal{
+    grid-column:span 2;
+    background-color: greenyellow;
+}
